@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+body{
+    box-sizing: border-box;
+    font-family: 'Manrope';
+    font-weight: 800;
+    background-color: $color-body-background;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+.attribution { 
+    font-size: 1.2rem; 
+    text-align: center; 
+    background-color: $color-text;
+    color:$color-body-background;
+    padding:2rem;
+    position: absolute;
+    bottom: 0;
+    width:100%;
+
+    a:link, a:visited{
+        color:$color-card-background;
+        text-decoration: none;
+    }
+    a:hover{
+        text-shadow: -1px 3px $color-accent;
+    }
+
+}
